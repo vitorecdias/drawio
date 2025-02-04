@@ -4,36 +4,38 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Diagrama de Contêineres&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="238" y="20" width="330" height="30" as="geometry" />
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Diagrama de Contexto&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="249" y="40" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=block;endFill=1;exitX=0.999;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="WIWx7EF0oUpYT1g42AMl-74" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-73" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;Envia requisições para&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-72" vertex="1" connectable="0">
-          <mxGeometry x="-0.1403" relative="1" as="geometry">
-            <mxPoint x="80" y="113" as="offset" />
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0.015;entryY=0.32;entryDx=0;entryDy=0;endArrow=block;endFill=1;exitX=1.003;exitY=0.607;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="WIWx7EF0oUpYT1g42AMl-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="398" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-60" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font&gt;&lt;b&gt;Aplicação Web - Frontend&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 6px; line-height: 70%;&quot;&gt;[Container: Javascript e Angular]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 6px; line-height: 70%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;line-height: 70%; font-size: 8px;&quot;&gt;Disponibiliza para os usuários uma interface para acesso via navergador Web.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="176" y="270" width="160" height="70" as="geometry" />
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-73" value="&lt;font style=&quot;color: rgb(87, 87, 87); font-size: 8px; line-height: 30%;&quot;&gt;Envia solicitação de acesso às APIs&lt;br&gt;(internas e externas)&lt;/font&gt;&lt;div style=&quot;line-height: 20%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 20%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-72" vertex="1" connectable="0">
+          <mxGeometry x="-0.1403" relative="1" as="geometry">
+            <mxPoint x="17" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-60" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font&gt;&lt;b style=&quot;line-height: 130%;&quot;&gt;GFO - Gestão Financeira e Orçamentária&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 6px; line-height: 70%;&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 6px; line-height: 70%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;line-height: 70%; font-size: 8px;&quot;&gt;Permite aos usuários fazer uma gestão financeira e orçamentária do Tribunal de Justiça do estado de Minas Gerais.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="131" y="320" width="199" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WIWx7EF0oUpYT1g42AMl-66" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;SSC&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%; font-size: 8px;&quot; face=&quot;Verdana&quot;&gt;Faz a gestão de acesso de usuários à aplicação Web.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#787878, #515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="667" y="250" width="160" height="70" as="geometry" />
+          <mxGeometry x="520" y="240" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-67" value="" style="endArrow=block;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeColor=#575757;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-54" target="WIWx7EF0oUpYT1g42AMl-60" edge="1">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-67" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeColor=#575757;endFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-54" target="WIWx7EF0oUpYT1g42AMl-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="180" y="190" as="sourcePoint" />
             <mxPoint x="120" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-71" value="&lt;font style=&quot;color: rgb(87, 87, 87);&quot;&gt;Visita www.gfo.gov.br&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(87, 87, 87);&quot;&gt;[https]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-67" vertex="1" connectable="0">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-71" value="&lt;font style=&quot;color: rgb(87, 87, 87);&quot;&gt;Acessa www.gfo.gov.br&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(87, 87, 87);&quot;&gt;[https]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-67" vertex="1" connectable="0">
           <mxGeometry x="-0.3699" relative="1" as="geometry">
-            <mxPoint x="-12" y="23" as="offset" />
+            <mxPoint y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WIWx7EF0oUpYT1g42AMl-69" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="340" y="60" width="166" height="160" as="geometry" />
+          <mxGeometry x="147.5" y="80" width="166" height="160" as="geometry" />
         </mxCell>
         <mxCell id="WIWx7EF0oUpYT1g42AMl-54" value="&lt;font style=&quot;line-height: 40%;&quot; face=&quot;Helvetica&quot;&gt;&lt;b&gt;&lt;font&gt;Usuário da Aplicação&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;line-height: 40%;&quot;&gt;&lt;font style=&quot;font-family: Verdana; font-size: 6px; line-height: 40%;&quot;&gt;[Person]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 40%;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 8px; line-height: 60%;&quot; face=&quot;Verdana&quot;&gt;Um usuário com acesso configurado no SSC&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;" parent="WIWx7EF0oUpYT1g42AMl-69" vertex="1">
           <mxGeometry y="70" width="166" height="90" as="geometry" />
@@ -42,56 +44,71 @@
           <mxGeometry x="43" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIWx7EF0oUpYT1g42AMl-74" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%;&quot;&gt;MG- API&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%; font-size: 8px;&quot; face=&quot;Verdana&quot;&gt;Faz toda a gestão de acesso à API.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#787878, #515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="667" y="340" width="160" height="70" as="geometry" />
+          <mxGeometry x="520" y="390" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WIWx7EF0oUpYT1g42AMl-75" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%;&quot;&gt;Transações Bancárias&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%; font-size: 8px;&quot; face=&quot;Verdana&quot;&gt;Gestão das transações bancárias do TJ-MG.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#787878, #515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="667" y="460" width="160" height="70" as="geometry" />
+          <mxGeometry x="520" y="509" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.002;exitY=0.832;exitDx=0;exitDy=0;endArrow=block;endFill=1;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-74" edge="1">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=1;startArrow=block;startFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-74" target="WIWx7EF0oUpYT1g42AMl-75" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="667" y="427.5" as="sourcePoint" />
-            <mxPoint x="486" y="410" as="targetPoint" />
+            <mxPoint x="550" y="450" as="sourcePoint" />
+            <mxPoint x="550" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-77" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;Envia requisições para&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-76" vertex="1" connectable="0">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-79" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%; font-size: 8px;&quot;&gt;Envia respostas para&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-78" vertex="1" connectable="0">
           <mxGeometry x="-0.1403" relative="1" as="geometry">
-            <mxPoint x="-2" y="-23" as="offset" />
+            <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;startArrow=block;startFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-74" target="WIWx7EF0oUpYT1g42AMl-75" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="597" y="592" as="sourcePoint" />
-            <mxPoint x="291" y="594" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-79" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;Envia requisições para&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-78" vertex="1" connectable="0">
-          <mxGeometry x="-0.1403" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.005;exitY=0.175;exitDx=0;exitDy=0;endArrow=block;endFill=1;startArrow=block;startFill=1;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="WIWx7EF0oUpYT1g42AMl-66" edge="1">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.003;exitY=0.086;exitDx=0;exitDy=0;endArrow=none;endFill=1;startArrow=block;startFill=1;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="WIWx7EF0oUpYT1g42AMl-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="130" as="sourcePoint" />
             <mxPoint x="640" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="333" />
+              <mxPoint x="420" y="258" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-84" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;Troca de requisições entre&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-83" vertex="1" connectable="0">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-84" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%; font-size: 8px;&quot;&gt;Envia informações de autorização do usuário logado.&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-83" vertex="1" connectable="0">
           <mxGeometry x="-0.1403" relative="1" as="geometry">
-            <mxPoint x="96" y="-2" as="offset" />
+            <mxPoint y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WIWx7EF0oUpYT1g42AMl-86" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;Keycloak - TJ&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Mantem a base de usuários a serem integrados com o sistema&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#787878, #515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="667" y="115" width="160" height="70" as="geometry" />
+          <mxGeometry x="520" y="120" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIWx7EF0oUpYT1g42AMl-66" edge="1">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;endArrow=block;endFill=1;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIWx7EF0oUpYT1g42AMl-66" edge="1" source="WIWx7EF0oUpYT1g42AMl-86">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="746.55" y="185" as="sourcePoint" />
+            <mxPoint x="747" y="180" as="sourcePoint" />
             <mxPoint x="747" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-88" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;Envia dados dos usuários para&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-87" vertex="1" connectable="0">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-88" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%; font-size: 8px;&quot;&gt;Envia dados para autenticação dos usuários para&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-87" vertex="1" connectable="0">
           <mxGeometry x="-0.1403" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWzfvglw82yFJjgBc2zA-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=0.459;entryY=1.015;entryDx=0;entryDy=0;exitX=0.997;exitY=0.303;exitDx=0;exitDy=0;endArrow=block;endFill=1;startArrow=none;startFill=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="WIWx7EF0oUpYT1g42AMl-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="395" as="sourcePoint" />
+            <mxPoint x="549" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWzfvglw82yFJjgBc2zA-1" value="&lt;font color=&quot;#575757&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Envia credenciais do usuário para autenticação para&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TWzfvglw82yFJjgBc2zA-0">
+          <mxGeometry x="-0.1403" relative="1" as="geometry">
+            <mxPoint x="-4" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWzfvglw82yFJjgBc2zA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=light-dark(#808080, #ededed);dashed=1;dashPattern=12 12;entryX=-0.006;entryY=0.842;entryDx=0;entryDy=0;endArrow=none;endFill=1;exitX=1.01;exitY=0.86;exitDx=0;exitDy=0;startArrow=block;startFill=1;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="WIWx7EF0oUpYT1g42AMl-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TWzfvglw82yFJjgBc2zA-3" value="&lt;font style=&quot;color: rgb(87, 87, 87); line-height: 50%; font-size: 8px;&quot;&gt;Retorna resposta das APIs para&lt;/font&gt;&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;font-size: 6px; color: rgb(87, 87, 87); line-height: 50%;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TWzfvglw82yFJjgBc2zA-2">
+          <mxGeometry x="-0.1403" relative="1" as="geometry">
+            <mxPoint x="13" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
