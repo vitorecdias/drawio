@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1430" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -40,7 +40,7 @@
             <mxPoint x="120" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIWx7EF0oUpYT1g42AMl-71" value="&lt;font style=&quot;font-size: 8px; color: rgb(112, 112, 112);&quot;&gt;Acessa https://jagf-frontend.dcont.prodemge.gov.br&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px; color: rgb(112, 112, 112);&quot;&gt;[https]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-67" vertex="1" connectable="0">
+        <mxCell id="WIWx7EF0oUpYT1g42AMl-71" value="&lt;font style=&quot;font-size: 8px; color: rgb(112, 112, 112);&quot;&gt;Acessa&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px; color: rgb(112, 112, 112);&quot;&gt;[https://jagf-frontend.dcont.prodemge.gov.br]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIWx7EF0oUpYT1g42AMl-67" vertex="1" connectable="0">
           <mxGeometry x="-0.3699" relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
           </mxGeometry>
@@ -138,17 +138,17 @@
         <mxCell id="Jb9FNESGlce8MvW0GaL_-1" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Servidor FTP&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;SIAFI&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; font-family: Verdana; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;[Storage]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%; font-size: 8px;&quot; face=&quot;Verdana&quot;&gt;Armazena arquivos do TJ-MG.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#999999,#515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="552" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SSkoJ5DqLGbknKEYPqdW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.814;exitY=1.001;exitDx=0;exitDy=0;endArrow=block;startFill=0;startArrow=none;curved=0;dashed=1;dashPattern=12 12;strokeColor=#707070;endFill=1;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="SSkoJ5DqLGbknKEYPqdW-3" source="WIWx7EF0oUpYT1g42AMl-60">
+        <mxCell id="SSkoJ5DqLGbknKEYPqdW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.814;exitY=1.001;exitDx=0;exitDy=0;endArrow=block;startFill=0;startArrow=none;curved=0;dashed=1;dashPattern=12 12;strokeColor=#707070;endFill=1;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIWx7EF0oUpYT1g42AMl-60" target="SSkoJ5DqLGbknKEYPqdW-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="311" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SSkoJ5DqLGbknKEYPqdW-2" value="&lt;div style=&quot;line-height: 5.5px;&quot;&gt;&lt;font style=&quot;line-height: 3px; color: rgb(112, 112, 112); font-size: 8px;&quot;&gt;Lê arquivos de&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 5.5px;&quot;&gt;&lt;font style=&quot;font-size: 6px; line-height: 3px; color: rgb(112, 112, 112);&quot;&gt;[FTP]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SSkoJ5DqLGbknKEYPqdW-1">
+        <mxCell id="SSkoJ5DqLGbknKEYPqdW-2" value="&lt;div style=&quot;line-height: 5.5px;&quot;&gt;&lt;font style=&quot;line-height: 3px; color: rgb(112, 112, 112); font-size: 8px;&quot;&gt;Lê arquivos de&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 5.5px;&quot;&gt;&lt;font style=&quot;font-size: 6px; line-height: 3px; color: rgb(112, 112, 112);&quot;&gt;[FTP]&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SSkoJ5DqLGbknKEYPqdW-1" vertex="1" connectable="0">
           <mxGeometry x="-0.0172" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SSkoJ5DqLGbknKEYPqdW-3" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Servidor FTP&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;InfoGuia&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; font-family: Verdana; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;[Storage]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%; font-size: 8px;&quot; face=&quot;Verdana&quot;&gt;Armazena arquivos do TJ-MG.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#999999,#515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SSkoJ5DqLGbknKEYPqdW-3" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;Servidor FTP&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;InfoGuia&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; font-family: Verdana; background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;[Storage]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px; line-height: 70%;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 70%; font-size: 8px;&quot; face=&quot;Verdana&quot;&gt;Armazena arquivos do TJ-MG.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#999999,#515151);strokeColor=#36393d;fontColor=#FFFFFF;strokeWidth=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="230" y="552" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
