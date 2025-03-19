@@ -21,7 +21,7 @@
           <mxGeometry x="60" y="109" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YWVrHOccRznsvWWrB8TM-4" value="&lt;b&gt;Transações Bancárias (TB)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YWVrHOccRznsvWWrB8TM-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.996;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="YWVrHOccRznsvWWrB8TM-16" target="YWVrHOccRznsvWWrB8TM-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
