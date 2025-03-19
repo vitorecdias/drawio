@@ -13,8 +13,8 @@
         <mxCell id="pC5V0CbygQR7Cua_b26K-3" value="Storage&lt;div&gt;SIAFI&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pC5V0CbygQR7Cua_b26K-4" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="310" y="380" width="50" height="70" as="geometry" />
+        <mxCell id="pC5V0CbygQR7Cua_b26K-4" value="arquivo.txt" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pC5V0CbygQR7Cua_b26K-6" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.43333333333333335;arrowSize=0.31666666666666665;" vertex="1" parent="1">
           <mxGeometry x="550" y="450" width="140" height="40" as="geometry" />
